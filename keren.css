@@ -1,0 +1,49 @@
+/* selector {
+    property: value;
+} */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right,#424d6a, #424d6a,white); 
+    color: white; 
+    line-height: 1.5; 
+    padding: 2%;
+}
+
+header {
+    text-align:center;
+    background-color: black;
+    color:white;
+    padding:40px;
+    border-radius:30px;
+}
+
+section {
+    background-color:black;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1)
+}
+
+h2 {
+    color: white; 
+    border-bottom: 2px solid white;
+}
+
+.container-1 {
+    display: flex; /* 1. Mengaktifkan mode Flexbox */
+    gap: 20px; /* 2. Memberi jarak antar kotak (section) */
+    flex-wrap: wrap;/* 3. Membuat layout responsif (turun ke bawah jika layar sempit) */
+}
+
+.container-1 section {
+    flex:1; /* 4. Membuat semua section di dalamnya punya lebar yang sama rata */
+    min-width: 250px; /* 5. Mencegah kotak jadi terlalu gepeng di layar kecil */
+}
+.yt {
+    width: 50;
+    height: 25;
+    text-align : left;
+    align-items: center;
+}
