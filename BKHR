@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BeKhoir</title>
+
+    <link rel="stylesheet" href="keren.css">
+</head>
+
+<body>
+    <header>
+    <img class="yt" src="youtube.png"  />
+    <h1>BE KHOIR</h1>  
+    <p>We Not Khoir But We Try to Be Khoir</p>
+    <hr>
+    </header>
+
+    <section>
+        <h2>Tentang Kami</h2>
+        <p>Lembaga Yayasan yang bergerak dalam bidang dakwah islam yang bersumber kepada Al-Qur'an dan As-Sunnah.</p>
+    </section>
+
+<div class="container-1">
+    <section>
+        <h2>Menyediakan</h2>
+        <ul>
+            <li>Kelas Online</li>
+            <li>Private Class</li>
+            <li>SDM Tinggi</li>
+            <li>Penyalur Zakat</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Kelebihan</h2>
+        <ul>
+            <li>Kualitas Terjamin</li>
+            <li>Sesuai Dengan Syariat</li>
+            <li>Aman dan Terpercaya</li>
+        </ul>
+    </section>
+</div>
+</body>
+</html>
